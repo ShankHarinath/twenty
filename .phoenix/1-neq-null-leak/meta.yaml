@@ -1,0 +1,44 @@
+bug_dir: 1-neq-null-leak
+branch: phoenix/1-neq-null-leak
+issue:
+  number: 1
+  url: https://github.com/ShankHarinath/twenty/issues/1
+  title: "neq filter returns wrong results on null-equivalent fields"
+  home_repo: ShankHarinath/twenty
+  reporter: ShankHarinath
+  created_at: "2026-04-20T20:16:47Z"
+  classification: bug
+  classification_confidence: 0.95
+status: triaged
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+scout:
+  confidence: 0.95
+  recommended_next_step: proceed_to_plan
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/twenty-1-neq-null-leak
+    branch: phoenix/1-neq-null-leak
+    pr_number: 3
+    pr_url: https://github.com/ShankHarinath/twenty/pull/3
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+followups: []
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.95
