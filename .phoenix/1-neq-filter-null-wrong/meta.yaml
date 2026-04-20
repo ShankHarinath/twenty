@@ -1,0 +1,50 @@
+issue:
+  home_repo: ShankHarinath/twenty
+  number: 1
+  url: https://github.com/ShankHarinath/twenty/issues/1
+  title: "neq filter returns wrong results on null-equivalent fields"
+  reporter: ShankHarinath
+  classification: bug
+  classification_confidence: 0.97
+  created_at: "2026-04-20T20:16:47Z"
+
+bug_dir: 1-neq-filter-null-wrong
+branch: phoenix/1-neq-filter-null-wrong
+created_at: "2026-04-20T20:33:16Z"
+updated_at: "2026-04-20T20:33:16Z"
+status: triaged
+
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/twenty-1-neq-filter-null-wrong
+    pr_number: 2
+    pr_url: https://github.com/ShankHarinath/twenty/pull/2
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+
+scout:
+  confidence: 0.97
+  recommended_next_step: patch
+  risk: LOW
+  primary_file: packages/twenty-server/src/engine/api/graphql/graphql-query-runner/utils/compute-where-condition-parts.ts
+  primary_symbol: computeWhereConditionParts
+  primary_line: 68
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-20T20:33:16Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.97
+
+followups: []
