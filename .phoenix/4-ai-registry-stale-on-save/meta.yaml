@@ -1,0 +1,44 @@
+version: 1
+issue:
+  number: 4
+  url: https://github.com/ShankHarinath/twenty/issues/4
+  title: 'On self-hosted instances, AI features fail with "No AI models are available."'
+  home_repo: ShankHarinath/twenty
+  reporter: ShankHarinath
+bug_dir: 4-ai-registry-stale-on-save
+branch: phoenix/4-ai-registry-stale-on-save
+status: triaged
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/twenty-4-ai-registry-stale-on-save
+    pr_number: 5
+    pr_url: https://github.com/ShankHarinath/twenty/pull/5
+scout:
+  confidence: 0.9
+  recommended_next_step: plan
+  affected_repos:
+    - ShankHarinath/twenty
+classification:
+  class: bug
+  confidence: 0.9
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+followups: []
