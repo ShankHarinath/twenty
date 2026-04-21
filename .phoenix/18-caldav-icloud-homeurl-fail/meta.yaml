@@ -22,7 +22,8 @@ scout:
   leak_signals: []
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776765746.635209"
+  message_link: https://canonix.slack.com/archives/C0ATH23P6PQ/p1776765746635209
 approvals:
   triage:
     approved: false
