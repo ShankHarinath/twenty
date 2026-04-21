@@ -1,0 +1,42 @@
+issue:
+  number: 12
+  url: https://github.com/ShankHarinath/twenty/issues/12
+  title: "MCP Server returns initialize-style response for all methods (breaks tools/list)"
+  reporter: ShankHarinath
+  home_repo: ShankHarinath/twenty
+  created_at: "2026-04-21T07:47:52Z"
+branch: phoenix/12-mcp-init-envelope-leak
+bug_dir: 12-mcp-init-envelope-leak
+slug: mcp-init-envelope-leak
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+status: triaged
+classification:
+  class: bug
+  confidence: 0.95
+scout:
+  confidence: 0.95
+  recommended_next_step: plan
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/twenty-12-mcp-init-envelope-leak
+    pr_number: 13
+    pr_url: https://github.com/ShankHarinath/twenty/pull/13
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+followups: []
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.95
