@@ -1,0 +1,56 @@
+issue:
+  number: 10
+  url: https://github.com/ShankHarinath/twenty/issues/10
+  title: "Favourites menu doesn't have all options in the UI and new views are not added and DB doesn't reflect changes"
+  home_repo: ShankHarinath/twenty
+  reporter: ShankHarinath
+  created_at: "2026-04-21T07:07:34Z"
+
+bug_dir: 10-nav-menu-orphan-views
+branch: phoenix/10-nav-menu-orphan-views
+slug: nav-menu-orphan-views
+
+classification:
+  class: bug
+  confidence_input: 0.85
+
+scout:
+  confidence: 0.78
+  recommended_next_step: architect_plan
+  rev: 1
+
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/twenty-10-nav-menu-orphan-views
+    pr_url: https://github.com/ShankHarinath/twenty/pull/11
+    pr_number: 11
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+status: triaged
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T07:35:19Z"
+      trigger: "ShankHarinath"
+      comments_consumed: []
+      scout_confidence_before: null
+      scout_confidence_after: 0.78
+      invalidated_downstream: []
+
+followups: []
+
+created_at: "2026-04-21T07:35:19Z"
+updated_at: "2026-04-21T07:35:19Z"
