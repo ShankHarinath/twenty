@@ -25,7 +25,7 @@ repos:
     pr_url: https://github.com/ShankHarinath/twenty/pull/13
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776758728.024729"
 approvals:
   plan:
     approved: false
