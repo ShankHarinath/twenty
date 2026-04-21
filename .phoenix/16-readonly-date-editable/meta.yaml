@@ -21,7 +21,8 @@ repos:
     pr_url: https://github.com/ShankHarinath/twenty/pull/17
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776763795.245029"
+  message_link: "https://canonix.slack.com/archives/C0ATH23P6PQ/p1776763795245029"
 approvals:
   plan:
     approved: false
