@@ -1,0 +1,42 @@
+schema: phoenix-meta/v1
+issue:
+  repo: ShankHarinath/twenty
+  number: 22
+  url: https://github.com/ShankHarinath/twenty/issues/22
+  title: Copy buttons not copying input field to clipboard
+  reporter: ShankHarinath
+  created_at: "2026-04-21T10:42:04Z"
+bug_dir: 22-clipboard-copy-noop
+branch: phoenix/22-clipboard-copy-noop
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+status: triaged
+classification:
+  class: bug
+  confidence: 0.95
+scout:
+  confidence: 0.78
+  recommended_next_step: implement-fix
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/twenty-22-clipboard-copy-noop
+    pr_url: https://github.com/ShankHarinath/twenty/pull/23
+    pr_number: 23
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.78
+followups: []
