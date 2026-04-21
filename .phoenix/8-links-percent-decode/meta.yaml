@@ -1,0 +1,36 @@
+schema_version: 1
+issue:
+  url: https://github.com/ShankHarinath/twenty/issues/8
+  number: 8
+  home_repo: ShankHarinath/twenty
+  title: "URL Encoding Bug leads to broken Links"
+  reporter: ShankHarinath
+  created_at: "2026-04-20T21:58:48Z"
+bug_dir: 8-links-percent-decode
+slug: links-percent-decode
+branch: phoenix/8-links-percent-decode
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+status: triaged
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/twenty-8-links-percent-decode
+    pr_url: https://github.com/ShankHarinath/twenty/pull/9
+    pr_number: 9
+approvals:
+  plan: null
+  implement: null
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+scout:
+  confidence: 0.9
+  recommended_next_step: plan
+  leak_signals: none
+followups: []
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      scout_confidence_after: 0.9
