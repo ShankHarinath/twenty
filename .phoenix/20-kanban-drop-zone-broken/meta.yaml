@@ -1,0 +1,42 @@
+issue:
+  repo: ShankHarinath/twenty
+  number: 20
+  url: https://github.com/ShankHarinath/twenty/issues/20
+  title: "Kanban drag-and-drop only registers drops near the top of a column"
+  reporter: ShankHarinath
+  created_at: "2026-04-21T10:06:44Z"
+  classification:
+    class: bug
+    confidence: 0.98
+bug_dir: 20-kanban-drop-zone-broken
+branch: phoenix/20-kanban-drop-zone-broken
+status: triaged
+created_at: "2026-04-21T10:36:19Z"
+updated_at: "2026-04-21T10:36:19Z"
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/twenty-20-kanban-drop-zone-broken
+    pr_number: 21
+    pr_url: https://github.com/ShankHarinath/twenty/pull/21
+scout:
+  confidence: 0.92
+  recommended_next_step: plan
+  leak_signals:
+    - "#15714"
+    - "#7600"
+    - "#7597"
+  gate_violations: []
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  plan: null
+  implement: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T10:36:19Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.92
+followups: []
