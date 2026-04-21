@@ -49,7 +49,8 @@ approvals:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776760291.920719"
+  permalink: "https://canonix.slack.com/archives/C0ATH23P6PQ/p1776760291920719"
 
 revisions:
   triage:
