@@ -1,0 +1,59 @@
+issue:
+  number: 4
+  url: https://github.com/ShankHarinath/twenty/issues/4
+  title: 'On self-hosted instances, AI features fail with "No AI models are available."'
+  reporter: ShankHarinath
+  home_repo: ShankHarinath/twenty
+
+bug_dir: 4-ai-registry-no-refresh
+branch: phoenix/4-ai-registry-no-refresh
+created_at: "2026-04-23T12:52:37Z"
+updated_at: "2026-04-23T12:52:37Z"
+
+status: triaged
+
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/twenty-4-ai-registry-no-refresh
+    pr_number: 26
+    pr_url: https://github.com/ShankHarinath/twenty/pull/26
+
+scout:
+  confidence: 0.92
+  root_cause_confidence: 0.92
+  fix_direction_confidence: 0.90
+  recommended_next_step: proceed
+  primary_causal_symbol: packages/twenty-server/src/engine/core-modules/admin-panel/admin-panel.resolver.ts:277
+  fix_shape_recommended: idiomatic
+  hypotheses_count: 4
+  hypotheses_confirmed: 1
+  converged: true
+
+classification:
+  class: bug
+  confidence: 0.95
+
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-23T12:52:37Z"
+      trigger: "9397524+ShankHarinath@users.noreply.github.com"
+      comments_consumed: []
+      scout_confidence_before: null
+      scout_confidence_after: 0.92
+      invalidated_downstream: []
+
+followups: []
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
