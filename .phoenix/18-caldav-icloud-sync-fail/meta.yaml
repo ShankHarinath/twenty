@@ -1,0 +1,58 @@
+issue:
+  number: 18
+  url: https://github.com/ShankHarinath/twenty/issues/18
+  title: 'CalDAV sync fails with iCloud: "No calendar with event support found" / "cannot find homeUrl"'
+  home_repo: ShankHarinath/twenty
+  reporter: ShankHarinath
+
+bug_dir: 18-caldav-icloud-sync-fail
+branch: phoenix/18-caldav-icloud-sync-fail
+slug: caldav-icloud-sync-fail
+
+classification:
+  class: bug
+  orchestrator_confidence: 0.95
+
+scout:
+  confidence: 0.82
+  root_cause_confidence: 0.82
+  fix_direction_confidence: 0.72
+  recommended_next_step: proceed
+  primary_causal_symbol: 'packages/twenty-server/src/modules/calendar/calendar-event-import-manager/drivers/caldav/lib/caldav.client.ts:97 (CalDAVClient.getAccount)'
+  fix_shape_recommended: idiomatic
+  hypotheses_count: 4
+  hypotheses_confirmed: 1
+  converged: true
+
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/twenty-18-caldav-icloud-sync-fail
+    pr_number: 24
+    pr_url: https://github.com/ShankHarinath/twenty/pull/24
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+status: triaged
+created_at: '2026-04-23T11:11:22Z'
+updated_at: '2026-04-23T11:11:22Z'
+
+revisions:
+  triage: []
+  plan: []
+  implement: []
+
+followups: []
