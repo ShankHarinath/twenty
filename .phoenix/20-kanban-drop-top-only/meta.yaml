@@ -1,0 +1,53 @@
+issue:
+  url: https://github.com/ShankHarinath/twenty/issues/20
+  number: 20
+  title: "Kanban drag-and-drop only registers drops near the top of a column"
+  author: "ShankHarinath"
+  created_at: "2026-04-21T10:06:44Z"
+  home_repo: "ShankHarinath/twenty"
+
+slug: kanban-drop-top-only
+bug_dir: 20-kanban-drop-top-only
+branch: phoenix/20-kanban-drop-top-only
+
+status: triaged
+
+repos:
+  - repo: ShankHarinath/twenty
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/twenty-20-kanban-drop-top-only
+    pr_url: https://github.com/ShankHarinath/twenty/pull/27
+    pr_number: 27
+    track_id: null
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+    at: null
+    pr_comment_url: null
+  plan:
+    approved: false
+    by: null
+    at: null
+    pr_comment_url: null
+  implement:
+    approved: false
+    by: null
+    at: null
+    pr_comment_url: null
+
+followups: []
+
+revisions:
+  triage: []
+  plan: []
+  implement: []
+
+created_at: "2026-04-23T13:19:30Z"
+updated_at: "2026-04-23T13:19:30Z"
+schema_version: 2
